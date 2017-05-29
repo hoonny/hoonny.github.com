@@ -137,9 +137,29 @@
                     <p>프로젝트 이름을 누르시면 상세 프로젝트 내용을 볼 수 있습니다.</p>
                 </div><!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="#hook">HomeAutoCareSystem</a></span> - 
+                    <span class="project-title"><a href="#hook" data-toggle="modal" data-target="#myModal">HomeAutoCareSystem</a></span> - 
 					<span class="project-tagline">쾌적한 주거 공간의 확보를 위해 컨트롤러 유닛이 자동으로 주택 내외부의 환경변화를 감지하고 대처를 수행하며 특수상황이 발생하면 경보장치가 작동합니다.</span>
                 </div><!--//item-->
+				<!-- Button trigger modal -->
+				<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					 <div class="modal-dialog">
+					  <div class="modal-content">
+					   <div class="modal-header">
+						 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+					  </div>
+					  <div class="modal-body">
+						...
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+
                 <div class="item">
                     <span class="project-title"><a href="" target="_blank">축사 통합 관제 시스템</a></span> - 
                     <span class="project-tagline">ㅁㄴㅇㅁㄴㅇㄴㅁㅇㄴㅁㅇ</span>
